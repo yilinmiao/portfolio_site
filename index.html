@@ -8,53 +8,57 @@
 		<link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
 		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/style.css">
-		<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-    	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script src="js/jquery-3.2.1.min.js"></script>
+    	<script src="js/bootstrap.min.js"></script>
 	</head>
 	<body>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
+		<header class="container">
+			<section class="row">
+				<section class="col-md-6">
 					<img class="title-logo" src="images/logo.png" alt="udacity logo">
-				</div>
-				<div class="col-md-6 text-right text-uppercase">
+				</section>
+
+				<section class="col-md-6 text-right text-uppercase">
 					<h1 class="text-thin">yilin miao</h1>
 					<h4>full stack web developer</h4>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12">
+				</section>
+			</section>
+
+			<section class="row">
+				<section class="col-md-12">
 					<hr>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<img class="img-responsive" src="images/head_meta.png" alt="head meta">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12">
+				</section>
+
+				<section class="col-md-12">
+					<img class="img-responsive" src="images/head_meta_800.png" alt="head meta"
+					sizes="(max-width: 400px) 100vw, (min-width: 401px) 50vw"
+      				srcset="images/head_meta_400.jpg 400w, images/head_meta_800.jpg 800w">
+				</section>
+
+				<section class="col-md-12">
 					<h2 class="text-muted">Featured Work</h2>
-				</div>
-			</div>
-			<div class="row text-center">
-				<div class="col-md-4">
+				</section>
+			</section>
+			<section class="row text-center">
+				<article class="col-md-4">
 					<img class="img-responsive" src="images/appify.png" alt="appify" data-toggle="modal" data-target="#appify">
 					<h3 class="text-uppercase">appify</h3>
 					<p>https://github.com/udacity/appify/</p>
-				</div>
-				<div class="col-md-4">
+				</article>
+
+				<article class="col-md-4">
 					<img class="img-responsive" src="images/sunflower.png" alt="sunflower" data-toggle="modal" data-target="#sunflower">
 					<h3 class="text-uppercase">sunflower</h3>
 					<p>https://github.com/udacity/sunflower/</p>
-				</div>
-				<div class="col-md-4">
+				</article>
+
+				<article class="col-md-4">
 					<img class="img-responsive" src="images/bokeh.png" alt="bokeh" data-toggle="modal" data-target="#bokeh">
 					<h3 class="text-uppercase">bokeh</h3>
 					<p>https://github.com/udacity/bokeh/</p>
-				</div>
-			</div>
-		</div>
+				</article>
+			</section>
+		</header>
 
 		<!-- Modal -->
 	    <div class="modal fade" id="appify" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -64,7 +68,7 @@
 	                    <h4 class="modal-title text-uppercase" id="myModalLabel">appify</h4>
 	                </div>
 	                <div class="modal-body">
-	                    <img class="img-responsive" src="images/appify.png">
+	                    <img class="img-responsive" src="images/appify.png" alt="appify">
 	                    https://github.com/udacity/appify/
 	                </div>
 	                <div class="modal-footer">
@@ -80,7 +84,7 @@
 	                    <h4 class="modal-title text-uppercase" id="myModalLabel">sunflower</h4>
 	                </div>
 	                <div class="modal-body">
-	                    <img class="img-responsive" src="images/sunflower.png">
+	                    <img class="img-responsive" src="images/sunflower.png" alt="sunflower">
 	                    https://github.com/udacity/sunflower/
 	                </div>
 	                <div class="modal-footer">
@@ -96,7 +100,7 @@
 	                    <h4 class="modal-title text-uppercase" id="myModalLabel">bokeh</h4>
 	                </div>
 	                <div class="modal-body">
-	                    <img class="img-responsive" src="images/bokeh.png">
+	                    <img class="img-responsive" src="images/bokeh.png" alt="bokeh">
 	                    https://github.com/udacity/bokeh/
 	                </div>
 	                <div class="modal-footer">
@@ -105,6 +109,5 @@
 	            </div>
 	        </div>
 	    </div>
-
 	</body>
 </html>
