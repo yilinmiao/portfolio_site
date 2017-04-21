@@ -3,9 +3,19 @@ body {
 	color: #7d97ad;
 	font-weight: 300;
 }
-.text-muted {
 
+.text-muted {
+	color: #2d3c49;
 }
+
 .text-thin {
 	font-weight: 100;
+}
+
+.title-super {
+	font-size: 60px;
+}
+
+.title-logo {
+	margin-top: 20px;
 }
